@@ -22,23 +22,8 @@
   }
 }
 
-@media screen and (max-width: 992px) {
-  .career-img {
-    flex-direction: column;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .col {
-      width: 75%;
-      float: left;
-      .card {
-        max-width: 100%;
-        float: left;
-        img {
-          width: 500px;
-        }
-      }
-    }
+.career {
+  img {
+    padding: 20px;
   }
 }

@@ -144,23 +144,6 @@ body {
   width: 550px;
 }
 
-@media screen and (max-width: 992px) {
-  .career-img {
-    flex-direction: column;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .career-img .col {
-    width: 75%;
-    float: left;
-  }
-  .career-img .col .card {
-    max-width: 100%;
-    float: left;
-  }
-  .career-img .col .card img {
-    width: 500px;
-  }
+.career img {
+  padding: 20px;
 }/*# sourceMappingURL=career.css.map */
