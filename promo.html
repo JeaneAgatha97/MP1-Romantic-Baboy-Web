@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Romantic Baboy</title>
+    <meta name="title" content="Romantic Baboy Philippines Official Website" />
+    <meta
+      name="description"
+      content="Romantic Baboy Philippines - The Best Authentic Korean Grill in the Philippines | Everything is Unlimited | Eat all you can | No Time Limit"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/promos.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/Romantic Baboy logo.png"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="root">
+      <!--Navigation bar-->
+      <nav
+        class="navbar navbar-dark navbar-expand-lg border-bottom border-body sticky-top"
+        style="background-color: #000000"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="./img/Romantic baboy logo hr.png"
+              alt="Logo"
+              width="350"
+              class="d-inline-block align-text-top img-fluid"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--Nav Menu-->
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0"
+              style="letter-spacing: 3px"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="promo.html">PROMOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="branches.html">BRANCHES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  OPPORTUNITIES
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li>
+                    <a class="dropdown-item" href="franchise.html">FRANCHISE</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="career.html">CAREERS</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">CONTACTS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--End nav bar-->
+      <!--Promo Title-->
+      <div class="container-fluid text-center promo-title">
+        <h1>OUR PROMOS</h1>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
+        <path
+          fill="#c01313"
+          fill-opacity="1"
+          d="M0,192L30,165.3C60,139,120,85,180,80C240,75,300,117,360,154.7C420,192,480,224,540,208C600,192,660,128,720,112C780,96,840,128,900,133.3C960,139,1020,117,1080,133.3C1140,149,1200,203,1260,229.3C1320,256,1380,256,1410,256L1440,256L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
+        ></path>
+      </svg>
+      <!--End Promo Title-->
+      <!--Promo Content-->
+      <div class="container my-5">
+        <div class="text-center mb-3">
+          <button class="btn filter-btn btn-outline-dark" data-filter="all">
+            All
+          </button>
+          <button
+            class="btn filter-btn btn-outline-dark"
+            data-filter="standard"
+          >
+            Standard
+          </button>
+          <button
+            class="btn filter-btn btn-outline-dark"
+            data-filter="branch-opening"
+          >
+            Branch Opening
+          </button>
+          <button
+            class="btn filter-btn btn-outline-dark"
+            data-filter="seasonal"
+          >
+            Seasonal
+          </button>
+        </div>
+        <div class="row p-4" id="imageContainer">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter-item standard">
+            <img
+              src="./img/Promo 1.png"
+              class="img-fluid"
+              id="myImg"
+              style="width: 100%; max-width: 500px"
+            />
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter-item standard">
+            <img
+              src="./img/Promo 2.png"
+              class="img-fluid"
+              id="myImg2"
+              style="width: 100%; max-width: 500px"
+            />
+            <!-- The Modal 2-->
+            <div id="myModal2" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img02" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter-item standard">
+            <img
+              src="./img/kids discount.png"
+              class="img-fluid"
+              id="myImg3"
+              style="width: 100%; max-width: 500px"
+            />
+            <!-- The Modal 3-->
+            <div id="myModal3" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img03" />
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption3"></div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter-item branch-opening"
+          >
+            <img
+              src="./img/grand opening promo.jpg"
+              alt="grand opening promo"
+              class="img-fluid"
+              id="myImg4"
+              style="width: 100%; max-width: 500px"
+            />
+            <!-- The Modal 4-->
+            <div id="myModal4" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img04" />
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter-item branch-opening"
+          >
+            <img
+              src="./img/Open Promo.jpg"
+              alt="Grand Open Promo"
+              class="img-fluid"
+              id="myImg5"
+            />
+            <!-- The Modal 5-->
+            <div id="myModal5" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img05" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter-item seasonal">
+            <img
+              src="./img/Seasonal promo.png"
+              alt="Architecture Image"
+              class="img-fluid"
+              id="myImg6"
+            />
+            <!-- The Modal 6-->
+            <div id="myModal6" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img06" />
+            </div>
+          </div>
+          <!-- More image divs here -->
+        </div>
+      </div>
+      <!--End of Promo COntent-->
+      <!--Footer-->
+      <footer>
+        <div class="container-fluid" id="rb-footer">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-6 text-white" id="footer-cont">
+              <section>
+                <img
+                  src="./img/Romantic baboy logo hr.png"
+                  style="height: 80px"
+                  class="img-fluid"
+                />
+              </section>
+              <div class="flex-container flex-md-row m-3" id="quick-links">
+                <div class="p-2 me-2"><a href="about.html">About</a></div>
+                <div class="p-2 me-2"><a href="menu.html">Menu</a></div>
+                <div class="p-2 me-2"><a href="promo.html">Promos</a></div>
+                <div class="p-2 me-2"><a href="branches.html">Branches</a></div>
+                <div class="p-2 me-2">
+                  <a href="franchise.html">Franchise</a>
+                </div>
+                <div class="p-2 me-2"><a href="career.html">Career</a></div>
+                <div class="p-2 me-2"><a href="contacts.html">Contacts</a></div>
+              </div>
+              <section class="address">
+                <p style="padding: 0 10px">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="14"
+                    fill="currentColor"
+                    class="bi bi-geo-alt-fill"
+                    viewBox="0 0 14 19"
+                  >
+                    <path
+                      d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                    />
+                  </svg>
+                  Tomas Morato Ave. CKB Centre, Quezon City, Philippines, 282
+                  <br />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="14"
+                    fill="currentColor"
+                    class="bi bi-telephone-fill"
+                    viewBox="0 0 14 18"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                    />
+                  </svg>
+                  Contact No. 283-648-722 |
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="14"
+                    fill="currentColor"
+                    class="bi bi-envelope-fill"
+                    viewBox="0 0 14 18"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                    />
+                  </svg>
+                  Email: rtbaboy@gmail.com
+                </p>
+              </section>
+            </div>
+            <div class="col-md-6">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 social">
+                    <h4 style="color: white">STAY CONNECTED WITH US!</h4>
+                    <a
+                      href="https://www.facebook.com/RomanticBaboy"
+                      target="_blank"
+                      class="fa fa-facebook"
+                    ></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a
+                      href="https://instagram.com/romantic.baboy?igshid=MzRlODBiNWFlZA=="
+                      target="_blank"
+                      class="fa fa-instagram"
+                    ></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                  </div>
+                  <div class="col-12 copyright">
+                    <p>Copyright &copy; ROMANTIC BABOY. All Rights Reserved.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--End of Footer-->
+    </div>
+    <!--JS Code for buttons-->
+    <script>
+      const filterButtons2 = document.querySelectorAll(".filter-btn");
+
+      filterButtons2.forEach((button) => {
+        button.addEventListener("click", function () {
+          // Remove active class from all buttons
+          filterButtons2.forEach((btn) => btn.classList.remove("active"));
+
+          // Add active class to the clicked button
+          this.classList.add("active");
+
+          // Your filtering logic here
+        });
+      });
+    </script>
+    <!--JS Code for Filtering-->
+    <script>
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const filterItems = Array.from(document.querySelectorAll(".filter-item"));
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", function () {
+          const filter = this.getAttribute("data-filter");
+          filterItems.forEach((item) => {
+            if (filter === "all" || item.classList.contains(filter)) {
+              item.style.display = "block";
+            } else {
+              item.style.display = "none";
+            }
+          });
+        });
+      });
+    </script>
+
+    <!--Modal 1-->
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("myImg");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      };
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+    </script>
+    <!--Modal 2-->
+    <script>
+      // Get the modal
+      var modal2 = document.getElementById("myModal2");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img2 = document.getElementById("myImg2");
+      var modalImg2 = document.getElementById("img02");
+      var captionText2 = document.getElementById("caption2");
+      img2.onclick = function () {
+        modal2.style.display = "block";
+        modalImg2.src = this.src;
+        captionText2.innerHTML = this.alt;
+      };
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[1];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal2.style.display = "none";
+      };
+    </script>
+    <!--Modal 3-->
+    <script>
+      // Get the modal
+      var modal3 = document.getElementById("myModal3");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img3 = document.getElementById("myImg3");
+      var modalImg3 = document.getElementById("img03");
+      var captionText3 = document.getElementById("caption3");
+      img3.onclick = function () {
+        modal3.style.display = "block";
+        modalImg3.src = this.src;
+        captionText3.innerHTML = this.alt;
+      };
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[2];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal3.style.display = "none";
+      };
+    </script>
+    <!--Modal 4-->
+    <script>
+      // Get the modal
+      var modal4 = document.getElementById("myModal4");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img4 = document.getElementById("myImg4");
+      var modalImg4 = document.getElementById("img04");
+      img4.onclick = function () {
+        modal4.style.display = "block";
+        modalImg4.src = this.src;
+      };
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[3];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal4.style.display = "none";
+      };
+    </script>
+    <!--Modal 5-->
+    <script>
+      // Get the modal
+      var modal5 = document.getElementById("myModal5");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img5 = document.getElementById("myImg5");
+      var modalImg5 = document.getElementById("img05");
+      img5.onclick = function () {
+        modal5.style.display = "block";
+        modalImg5.src = this.src;
+      };
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[4];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal5.style.display = "none";
+      };
+    </script>
+    <!--Modal 6-->
+    <script>
+      // Get the modal
+      var modal6 = document.getElementById("myModal6");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img6 = document.getElementById("myImg6");
+      var modalImg6 = document.getElementById("img06");
+      img6.onclick = function () {
+        modal6.style.display = "block";
+        modalImg6.src = this.src;
+      };
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[5];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal6.style.display = "none";
+      };
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

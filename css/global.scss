@@ -1,0 +1,138 @@
+@import "variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+/* Navigation Bar */
+.navbar {
+  .navbar-nav {
+    .nav-link {
+      font-size: 1.1em;
+      font-weight: 500;
+      color: $light;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+    .nav-item {
+      position: relative;
+
+      &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: $primary;
+        width: 0%;
+        content: "";
+        height: 4px;
+        transition: all 0.5s;
+      }
+      &:hover {
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+
+    .navbar-brand {
+      padding: 0 0.7em;
+    }
+    .navbar-nav {
+      .nav-link {
+        padding: 1em 0;
+      }
+      .nav-item {
+        margin: 0 1em;
+      }
+    }
+  }
+}
+
+/* Footer Css */
+#rb-footer {
+  background-color: $dark;
+  padding: 30px;
+}
+
+#quick-links {
+  .p-2 {
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      color: white;
+      font-size: 20px;
+
+      &:hover {
+        font-weight: 600;
+        color: $primary;
+      }
+    }
+  }
+}
+#footer-cont {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.social {
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  padding-left: 600px;
+  padding-top: 100px;
+  text-align: right;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: #f40083;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.copyright {
+  p {
+    color: $light;
+    font-size: 14px;
+    padding: 20px;
+    text-align: right;
+  }
+}

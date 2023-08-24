@@ -1,0 +1,39 @@
+@import "global.scss";
+
+.abt-img1 {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.part1 {
+  .col-12 {
+    h1 {
+      text-align: center;
+      padding: 90px 0 20px;
+      font-size: 60px;
+    }
+    h5 {
+      text-indent: 70px;
+      line-height: 1.4;
+      text-align: justify;
+      text-justify: inter-word;
+      font-size: 25px;
+      padding: 40px 0;
+    }
+  }
+}
+
+.part2 {
+  .col-12 {
+    h1 {
+      text-align: center;
+      padding: 50px 0 20px;
+      font-size: 40px;
+    }
+    h5 {
+      line-height: 1.4;
+    }
+  }
+}

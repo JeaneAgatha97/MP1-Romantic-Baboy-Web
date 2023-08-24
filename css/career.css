@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+/* Navigation Bar */
+.navbar .navbar-nav .nav-link {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #fff;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #c01313;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #c01313;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.7em;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin: 0 1em;
+  }
+}
+/* Footer Css */
+#rb-footer {
+  background-color: black;
+  padding: 30px;
+}
+
+#quick-links .p-2 a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+}
+#quick-links .p-2 a:hover {
+  font-weight: 600;
+  color: #c01313;
+}
+
+#footer-cont .flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.social {
+  padding-left: 600px;
+  padding-top: 100px;
+  text-align: right;
+}
+.social .fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.social .fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #f40083;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.copyright p {
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+  text-align: right;
+}
+
+#title-txt {
+  padding: 50px;
+}
+#title-txt h1 {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.card img {
+  width: 550px;
+}/*# sourceMappingURL=career.css.map */
