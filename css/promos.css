@@ -51,6 +51,11 @@ body {
     margin: 0 1em;
   }
 }
+@media only screen and (max-width: 700px) {
+  .navbar .navbar-brand img {
+    width: 150px;
+  }
+}
 /* Footer Css */
 #rb-footer {
   background-color: #000;
@@ -245,4 +250,10 @@ body {
   border: solid 1px #000;
   background-color: #000;
   color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .promo-title h1 {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=promos.css.map */

@@ -51,6 +51,11 @@ body {
     margin: 0 1em;
   }
 }
+@media only screen and (max-width: 700px) {
+  .navbar .navbar-brand img {
+    width: 150px;
+  }
+}
 /* Footer Css */
 #rb-footer {
   background-color: #000;
@@ -126,4 +131,10 @@ body {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   background: #c01313;
   color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+  .head-content h1 {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=contacts.css.map */

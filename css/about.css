@@ -152,7 +152,7 @@ body {
 
 @media screen and (max-width: 700px) {
   .abt-title h1 {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     padding: 40px;
     display: flex;
@@ -174,5 +174,16 @@ body {
   .part2 .col-12 h1 {
     text-align: center;
     font-size: 35px;
+  }
+  .part2 .col-12 h5 {
+    text-align: justify;
+    padding: 20px;
+  }
+  .part3 .col-12 h5 {
+    text-align: justify;
+    padding: 20px;
+  }
+  .part3 .col-12 h5 img {
+    padding-bottom: 20px;
   }
 }/*# sourceMappingURL=about.css.map */

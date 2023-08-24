@@ -127,6 +127,18 @@ body {
   height: auto;
 }
 
+.title-desc h2 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding-top: 60px;
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 700px) {
+  .title-desc h2 {
+    font-size: 18px;
+  }
+}
 #myImg,
 #myImg2,
 #myImg3,
@@ -246,4 +258,4 @@ body {
   border: solid 1px #000;
   background-color: #000;
   color: #fff;
-} /*# sourceMappingURL=menu.css.map */
+}/*# sourceMappingURL=menu.css.map */

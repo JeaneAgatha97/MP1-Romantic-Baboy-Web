@@ -239,22 +239,24 @@
 #branch-txt {
   .col-12 {
     h1 {
-      font-size: 70px;
+      font-size: 60px;
     }
   }
 }
 
 #branch-content {
-  .col-md-6 {
+  .branch-text {
+    h4 {
+      text-indent: 40px;
+      text-align: justify;
+      padding: 20px 50px;
+      font-size: 27px;
+      line-height: 1.4;
+    }
     h1 {
       font-family: "Bungee Shade", cursive;
       font-size: 80px;
       text-align: center;
-    }
-    h4 {
-      padding: 20px 50px;
-      font-size: 27px;
-      line-height: 1.4;
     }
   }
 }
@@ -374,21 +376,24 @@
       font-size: 45px;
     }
   }
+
   #branch-content {
-    .col-md-6 {
-      h1 {
-        font-family: "Bungee Shade", cursive;
-        font-size: 40px;
-        padding-top: 20px;
-        text-align: center;
-      }
+    .branch-text {
       h4 {
-        text-align: center;
+        text-indent: 40px;
+        text-align: justify;
         font-size: 20px;
         line-height: 1.4;
       }
+      h1 {
+        font-family: "Bungee Shade", cursive;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+      }
     }
   }
+
   /* Overlay Box */
   .text-block {
     position: absolute;
