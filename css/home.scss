@@ -14,17 +14,20 @@
 }
 
 .hero-txt {
+  align-items: center;
+  justify-content: center;
+  display: flex;
   .txt-1 {
     p {
       color: $light;
-      font-size: 2vw;
+      font-size: 40px;
       letter-spacing: 2px;
     }
   }
   .txt-2 {
     h1 {
       color: $primary;
-      font-size: 30px;
+      font-size: 60px;
       text-shadow: 2px 2px rgb(255, 255, 255);
     }
   }
@@ -364,18 +367,54 @@
       }
     }
   }
-
+  #branch-txt .col-12 {
+    h1 {
+      font-size: 45px;
+    }
+  }
   #branch-content {
     .col-md-6 {
       h1 {
         font-family: "Bungee Shade", cursive;
         font-size: 40px;
+        padding-top: 20px;
         text-align: center;
       }
       h4 {
         text-align: center;
-        font-size: 10px;
+        font-size: 20px;
         line-height: 1.4;
+      }
+    }
+  }
+  /* Overlay Box */
+  .text-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.774);
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .hero-txt {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    .txt-1 {
+      p {
+        color: $light;
+        font-size: 20px;
+        letter-spacing: 2px;
+      }
+    }
+    .txt-2 {
+      h1 {
+        color: $primary;
+        font-size: 30px;
+        text-shadow: 2px 2px rgb(255, 255, 255);
       }
     }
   }
