@@ -9,8 +9,33 @@
   }
 }
 
+.career-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
+  width: 560px;
   img {
     width: 550px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .career-img {
+    flex-direction: column;
+    float: left;
+    .col {
+      width: 25%;
+      float: left;
+      .card {
+        width: 360px;
+        float: left;
+        img {
+          width: 350px;
+        }
+      }
+    }
   }
 }

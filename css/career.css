@@ -51,6 +51,11 @@ body {
     margin: 0 1em;
   }
 }
+@media only screen and (max-width: 700px) {
+  .navbar .navbar-brand img {
+    width: 150px;
+  }
+}
 /* Footer Css */
 #rb-footer {
   background-color: #000;
@@ -126,6 +131,33 @@ body {
   font-size: 50px;
 }
 
+.career-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 560px;
+}
 .card img {
   width: 550px;
+}
+
+@media screen and (max-width: 992px) {
+  .career-img {
+    flex-direction: column;
+    float: left;
+  }
+  .career-img .col {
+    width: 25%;
+    float: left;
+  }
+  .career-img .col .card {
+    width: 360px;
+    float: left;
+  }
+  .career-img .col .card img {
+    width: 350px;
+  }
 }/*# sourceMappingURL=career.css.map */

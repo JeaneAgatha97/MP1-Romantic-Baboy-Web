@@ -51,6 +51,11 @@ body {
     margin: 0 1em;
   }
 }
+@media only screen and (max-width: 700px) {
+  .navbar .navbar-brand img {
+    width: 150px;
+  }
+}
 /* Footer Css */
 #rb-footer {
   background-color: #000;
@@ -241,4 +246,4 @@ body {
   border: solid 1px #000;
   background-color: #000;
   color: #fff;
-}/*# sourceMappingURL=menu.css.map */
+} /*# sourceMappingURL=menu.css.map */
