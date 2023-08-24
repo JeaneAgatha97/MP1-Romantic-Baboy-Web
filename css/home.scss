@@ -11,17 +11,22 @@
   text-align: center;
   justify-content: center;
   overflow: hidden;
+}
 
-  p {
-    color: $light;
-    font-size: 2vw;
-    padding: 130px 50px 50px 50px;
-    letter-spacing: 2px;
+.hero-txt {
+  .txt-1 {
+    p {
+      color: $light;
+      font-size: 2vw;
+      letter-spacing: 2px;
+    }
   }
-  h1 {
-    color: $primary;
-    font-size: 3vw;
-    text-shadow: 2px 2px rgb(255, 255, 255);
+  .txt-2 {
+    h1 {
+      color: $primary;
+      font-size: 30px;
+      text-shadow: 2px 2px rgb(255, 255, 255);
+    }
   }
 }
 
