@@ -148,16 +148,19 @@ body {
   .career-img {
     flex-direction: column;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .career-img .col {
-    width: 25%;
+    width: 75%;
     float: left;
   }
   .career-img .col .card {
-    width: 360px;
+    max-width: 100%;
     float: left;
   }
   .career-img .col .card img {
-    width: 350px;
+    width: 500px;
   }
 }/*# sourceMappingURL=career.css.map */
